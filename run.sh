@@ -1,4 +1,5 @@
 sudo apt-get install vim zsh tmux
+pip3 install thefuck --user
 
 ### ZSH
 
@@ -11,10 +12,10 @@ chsh -s $(which zsh)
 
 sudo apt-get install tmux
 git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
-mv tmux ~/.tmux.conf
+cp ./tmux.conf ~/.tmux.conf
 
 # Don't forget to press ctrl+a and shift+i to install the plugins
 
 ### VIM
 
-mv vimrc ~/.vimrc
+cp ./vimrc ~/.vimrc
