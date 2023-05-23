@@ -106,4 +106,5 @@ eval $(thefuck --alias)
 
 # aliases
 alias sl="ls"
+alias lss="ls"
 alias mv="mv -i"
