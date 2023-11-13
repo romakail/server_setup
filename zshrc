@@ -101,8 +101,7 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
-
-eval $(thefuck --alias)
+# [ -f ~/.fzf.bash ] && source ~/.fzf.bash
 
 # aliases
 alias sl="ls"
